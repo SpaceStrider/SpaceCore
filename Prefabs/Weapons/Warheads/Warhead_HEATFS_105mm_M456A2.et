@@ -1,0 +1,18 @@
+GenericEntity : "{D649A52C2A1A29FF}Prefabs/Weapons/Warheads/Warhead_HEAT_PG7VM.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CBC1D0F5B4AEA}" {
+     ChargeWeight 1270
+    }
+    SubmunitionEffect "{567CB8E002C26D97}" {
+     Prefab "{0E9EE6B2082BA4CE}Prefabs/Weapons/Ammo/Ammo_HEAT_M456A2_Penetrator.et"
+    }
+    SpawnDecalEffect "{5E24CB0410DA8EC3}" {
+     Scale 3
+    }
+   }
+  }
+ }
+}

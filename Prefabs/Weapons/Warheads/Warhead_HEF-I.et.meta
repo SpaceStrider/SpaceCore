@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1E525C9ABCD5F7E4}Prefabs/Weapons/Warheads/Warhead_HEF-I.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

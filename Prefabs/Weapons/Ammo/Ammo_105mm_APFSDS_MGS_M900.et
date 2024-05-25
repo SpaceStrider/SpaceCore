@@ -1,0 +1,36 @@
+TracerProjectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/Ammo_127x99_Ball_M33.et" {
+ ID "70242781DB2FDA8A"
+ components {
+  CollisionTriggerComponent "{611C9EA0FC4DAD23}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{611C9EA04CA055B0}" {
+     TriggerOnce 1
+     EffectPrefab "{872637156F18BBE2}Prefabs/Weapons/Warheads/Warhead_Spall_M900.et"
+     ParticleEffect "{0CFB985286C5AC91}Particles/Weapons/Impact_APFSDS.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1505
+   Mass 3.85
+   TimeToLive 100
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 5400
+    }
+   }
+   BallisticTableConfig "{E463819FB3FD8C7C}Configs/Weapons/AIBallisiticTables/AIBT_105mm_APFSDS_M900.conf"
+   AirDrag 0.001
+   Diameter 20
+   PenetrationDepth 522
+   PenetrationSpeed 1500
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{D807332FCA58B894}Assets/Weapons/Ammo/Tracers/Tracer_red.xob"
+ CartridgeModel "{AEFCDCB3A4882310}Assets/Weapons/Ammo/120mm/M829A3_Cartridge.xob"
+ "Tracer Burn Start After" 0.001
+}

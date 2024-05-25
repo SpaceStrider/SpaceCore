@@ -1,0 +1,15 @@
+GenericEntity : "{1E29CFA773A85605}Prefabs/Weapons/Warheads/Warhead_AP_Spall_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    SubmunitionEffect "{612616B8D135234C}" {
+     Prefab "{BFEFA34C3A3FC77B}Prefabs/Weapons/Ammo/Ammo_APFSDS_M900_Spall.et"
+    }
+   }
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{0CFB985286C5AC91}Particles/Weapons/Impact_APFSDS.ptc"
+  }
+ }
+}

@@ -1,0 +1,38 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{84B85FE9726C1E6F}Assets/Vehicles/Common/TriplexPlaceholder/Triplex.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ModelGeometry 1
+   Static 0
+  }
+  ActionsManagerComponent "{610E489C72650588}" {
+   ActionContexts {
+    UserActionContext "{610E489C76FA2FD7}" {
+     ContextName "Triplex"
+     Position PointInfo "{610E489C7B875B60}" {
+      Offset 0 -0.0147 0.1072
+     }
+     Height 0
+    }
+   }
+   additionalActions {
+    RAM_TriplexAction "{610E489C493B6B5F}" {
+     ParentContextList {
+      "Triplex"
+     }
+     m_bLoopAction 0
+     m_eShownInVehicleState IN_VEHICLE_ANY
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+  RplComponent "{610E4895A0BC2659}" {
+  }
+  Hierarchy "{610E4895DE0CCAD6}" {
+  }
+ }
+ coords 2.495 2.374 2.006
+}

@@ -1,0 +1,20 @@
+GameProject {
+ ID "SpaceCore"
+ GUID "5E389BB9F58B79A6"
+ TITLE "SpaceCore"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

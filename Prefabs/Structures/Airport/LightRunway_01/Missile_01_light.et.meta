@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{541CE4EFB03AB3D5}Prefabs/Structures/Airport/LightRunway_01/Missile_01_light.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

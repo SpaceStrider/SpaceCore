@@ -1,0 +1,76 @@
+$grp SCR_EditorImagePositionEntity : "{6827E4D6141D8F9F}Prefabs/Editor/Common/AssetImagePosition.et" {
+ Position_Truck2 {
+  coords 7386.49 192.666 4014.45
+  angleX 1.167
+  angleY -158.241
+  angleZ 4.312
+  m_Labels {
+   3 54
+  }
+  m_fDelay 4
+  m_PreviewMesh "{06C865EC0B9277E5}Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob"
+  m_aCameraNames {
+   "Camera_Truck2"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.684
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Truck2 {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEBA61F9C18F5B}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{C45E4BB64FAF52AE}UI/Materials/Editor/AssetImages/Blur_Truck.emat"
+       }
+      }
+     }
+    }
+    coords 9.215 0.93 13.439
+    angleX 4.145
+    angleY -144.298
+    angleZ 4.203
+    FOV 20
+   }
+  }
+ }
+ Position_Helicopter2 {
+  coords 4782.353 24.164 12012.06
+  angleX 3.273
+  angleY -156.059
+  angleZ 1.452
+  m_Labels {
+   3 51 1001
+  }
+  m_fDelay 4
+  m_PreviewMesh "{2254BE61BC85D56E}Assets/Structures/BuildingsParts/Electrical/DieselGenerator_01/Dst/DieselGenerator_01_wreck.xob"
+  m_aCameraNames {
+   "Camera_Helicopter2"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.75
+  {
+   SCR_CameraBase Camera_Helicopter2 {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55ACFC3A284D2CCE}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{2F0A8C8D45532DB8}UI/Materials/Editor/AssetImages/Blur_Helicopter.emat"
+       }
+      }
+     }
+    }
+    coords 8.874 0.142 22.656
+    angleX 5.945
+    angleY -158.566
+    angleZ 2.391
+    FOV 20
+   }
+  }
+ }
+}

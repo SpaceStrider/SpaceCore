@@ -1,0 +1,39 @@
+GenericEntity : "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" {
+ coords 128.978 1.316 186.44
+}
+GenericEntity : "{24D162E92F59094F}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114_R.et" {
+ coords 121.352 1.966 177.886
+}
+GenericEntity : "{33C48FD914954295}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114.et" {
+ coords 121.225 1.875 180.66
+}
+VehiclePartRotor : "{3B7D5676B67CC90F}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Rotor/VehPart_Mi8_rotor_main.et" {
+ coords 87.914 1 203.556
+}
+GenericEntity : "{3BAD41B84BDF6C64}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU68.et" {
+ coords 119.336 1.795 180.462
+}
+GenericEntity : "{3C928419352BB999}Prefabs/Weapons/RocketPods/VehicleLauncher_BGM71_R.et" {
+ coords 120.227 2.133 177.786
+}
+GenericEntity : "{3D472556C2D7D65B}Prefabs/Weapons/Magazines/Rocket_9M120_4rnd_Base.et" {
+ coords 123.462 1 185.064
+}
+GenericEntity : "{4AF901E33A9428E3}Prefabs/Weapons/Magazines/Rocket_Hydra70_7rnd_Base.et" {
+ coords 117.741 1 185.156
+}
+GenericEntity : "{541CE4EFB03AB3D5}Prefabs/Structures/Airport/LightRunway_01/Missile_01_light.et" {
+ coords 178.709 1 177.805
+}
+GenericEntity : "{5C851D92390D031F}Prefabs/Weapons/Magazines/Rocket_AGM114_4rnd_Base.et" {
+ coords 120.956 1 185.089
+}
+GenericEntity : "{5FB337DC44B6EE97}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU68_R.et" {
+ coords 119.154 1.827 177.189
+}
+GenericEntity : "{6A8FC4CD7F854FD0}Prefabs/Weapons/Magazines/Rocket_Hydra70_19rnd_Base.et" {
+ coords 117.668 1 183.995
+}
+GenericEntity : "{6AF5FA1A839A4980}Prefabs/Weapons/MachineGuns/M60/MG_M60_Mounted.et" {
+ coords 167.127 1 165.187
+}

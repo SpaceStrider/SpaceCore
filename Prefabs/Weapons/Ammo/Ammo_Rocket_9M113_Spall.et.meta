@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B508D5ACA87F6045}Prefabs/Weapons/Ammo/Ammo_Rocket_9M113_Spall.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

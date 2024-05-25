@@ -1,0 +1,41 @@
+GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{6FC67D2C9BF229AB}Sounds/Weapons/Ammo/RPG7/Explosion/Weapons_Ammo_Rocket_RPG7.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5E664CAF3C2425CD}" {
+     ExplosionDamageEffects {
+      ExplosionImpulseEffect "{567CBC1D7B765F0A}" : "{3BE7AB8C8BD42E9B}Prefabs/Weapons/Core/Damage/BlastDamageEffect.conf" {
+      }
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" : "{D865ECB9F1A819E9}Prefabs/Weapons/Core/Damage/FragmentationDamageEffect.conf" {
+       DamageFragmentCount 15
+       GurneyShape CYLINDER
+       GurneyConstant 2800
+       FragMassScale 5
+       FragRangeFactor 0.5
+      }
+      BaseExplosionDamageEffect "{5884B60802925610}" : "{ACBA86677A85EA46}Prefabs/Weapons/Core/Damage/IncendiaryDamageEffect.conf" {
+      }
+     }
+    }
+    SubmunitionDamageEffect "{5E664CAF3C2425DF}" {
+     Prefab "{165D6196250A1320}Prefabs/Weapons/Core/Ammo_Penetrator_Base.et"
+    }
+    SubmunitionDamageEffect "{5E664CAF3C2425D9}" {
+     Prefab "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et"
+     Count 30
+     Dispersion 60
+    }
+   }
+   TriggerOffset -0.1
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+  }
+ }
+}

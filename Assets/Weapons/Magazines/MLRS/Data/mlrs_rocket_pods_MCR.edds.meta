@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{DA233A385A665F40}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_MCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   ColorSpace ToSRGB
+  }
+ }
+}

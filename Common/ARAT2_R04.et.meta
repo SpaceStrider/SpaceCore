@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9AAFBC2A1DE22E8A}Prefabs/Vehicles/Core/ERA/ARAT2/ARAT2_R04.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

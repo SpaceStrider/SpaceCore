@@ -1,0 +1,29 @@
+GenericEntity : "{7DA2AFFC7B4BE844}Prefabs/Weapons/Warheads/Warhead_Grenade_HE.et" {
+ ID "520EA1D2A9E0B759"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{DB39A785FAA82E94}Sounds/Weapons/Grenades/Weapons_Grenade_Generic.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CBC1CFBB064A8}" {
+     ExplosionDamageEffects {
+      ExplosionImpulseEffect "{567CBC1CFF59314D}" {
+      }
+      ExplosionFragmentationEffect "{567CBC1CF724A638}" {
+       CaseWeight 372
+      }
+      BaseExplosionDamageEffect "{588883B3410C519A}" {
+      }
+     }
+     ChargeWeight 75
+    }
+    SpawnDecalEffect "{5E24CB0430C17E4A}" {
+     Scale 1
+    }
+   }
+  }
+ }
+}

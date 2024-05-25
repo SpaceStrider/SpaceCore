@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6A8FC4CD7F854FD0}Prefabs/Weapons/Core/Rocket_Hydra70_19rnd_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

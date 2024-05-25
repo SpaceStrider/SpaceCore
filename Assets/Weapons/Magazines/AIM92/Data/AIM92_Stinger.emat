@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 0.819
+ BCRMap "{16A83B28FA1FF684}Assets/Weapons/Magazines/AIM92/Data/AIM-92_Stinger_BCR.edds"
+ NMOMap "{2E7080BA2368A41A}Assets/Weapons/Magazines/AIM92/Data/AIM-92_Stinger_NMO.edds"
+}

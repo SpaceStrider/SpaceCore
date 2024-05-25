@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C1EC43170FC6DC4A}Assets/Weapons/Magazines/AIM92/Data/AIM92_Stinger.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

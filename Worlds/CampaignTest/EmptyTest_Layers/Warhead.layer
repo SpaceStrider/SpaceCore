@@ -1,0 +1,57 @@
+GenericEntity : "{1E525C9ABCD5F7E4}Prefabs/Weapons/Warheads/Warhead_HEF-I.et" {
+ coords 162.977 1 185.982
+}
+GenericEntity : "{22F84B288DA11E70}Prefabs/Weapons/Warheads/Warhead_HEAT_Hydra70.et" {
+ coords 117.728 1 188.215
+}
+Projectile : "{2B965D7A9AA0DC21}Prefabs/Weapons/Ammo/Ammo_Rocket_9M120_Penetrator.et" {
+ coords 123.409 1 189.398
+}
+GenericEntity : "{2CE1B96EC83F0A10}Prefabs/Weapons/Warheads/Warhead_HEAT_PG-9.et" {
+ coords 169.993 1 186.042
+}
+GenericEntity : "{3F34529D9BAA3513}Prefabs/Weapons/Warheads/Warhead_HEATFS_M830.et" {
+ coords 160.008 1 186.019
+}
+GenericEntity : "{470F61B50FF39285}Prefabs/Weapons/Warheads/Warhead_HE-T_IM.et" {
+ coords 156.993 1 185.977
+}
+GenericEntity : "{49F537629934E058}Prefabs/Weapons/Warheads/Warhead_HE_MK238.et" {
+ coords 167.009 1 186.013
+}
+GenericEntity : "{5809AF2FCA592F19}Prefabs/Weapons/Warheads/Warhead_Shell_HE_3OF26.et" {
+ coords 164.004 1 185.982
+}
+GenericEntity : "{5F0ABE2CF312D884}Prefabs/Weapons/Warheads/Warhead_HEAT_9M120.et" {
+ coords 123.416 1 188.048
+}
+GenericEntity : "{620E8AF45A5143D7}Prefabs/Weapons/Warheads/Warhead_Grenade_HE_M406.et" {
+ coords 167.99 1 186.004
+}
+GenericEntity : "{7D969E6B3209529C}Prefabs/Weapons/Warheads/Warhead_Grenade_HEDP_M433.et" {
+ coords 157.999 1 186.003
+}
+GenericEntity : "{81E998C5E7B65795}Prefabs/Weapons/Warheads/Warhead_Spall_M829A2.et" {
+ coords 155.004 1 185.973
+}
+GenericEntity : "{872637156F18BBE2}Prefabs/Weapons/Warheads/Warhead_Spall_M900.et" {
+ coords 152 1 186
+}
+GenericEntity : "{8DB16E4E107CE934}Prefabs/Weapons/Warheads/Warhead_HEATFS_105mm_M456A2.et" {
+ coords 152.967 1 185.991
+}
+GenericEntity : "{A3D501B973B16ECE}Prefabs/Weapons/Warheads/Warhead_Shell_HE_OG9.et" {
+ coords 168.999 1 186.022
+}
+GenericEntity : "{B9BB95A5F6594528}Prefabs/Weapons/Warheads/Warhead_Spall_3BM15.et" {
+ coords 160.99 1 186.019
+}
+Projectile : "{D2591D8F78F6B215}Prefabs/Weapons/Ammo/Ammo_Rocket_AGM114_Penetrator.et" {
+ coords 121.022 1 189.343
+}
+GenericEntity : "{EDBDAC255B72D8BB}Prefabs/Weapons/Warheads/Warhead_Spall_M829A1.et" {
+ coords 153.96 1 186.018
+}
+GenericEntity : "{EF860CCF035C7A86}Prefabs/Weapons/Warheads/Warhead_HEAT_AGM114.et" {
+ coords 120.994 1 188.048
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 1.5
+ BCRMap "{5FF7452D239CC035}Assets/Weapons/RocketPods/LAU-61/Data/Textures/helicopter_nato_weapons_base_BCR.edds"
+ NMOMap "{672FFEBFFAEB92AB}Assets/Weapons/RocketPods/LAU-61/Data/Textures/helicopter_nato_weapons_base_NMO.edds"
+}

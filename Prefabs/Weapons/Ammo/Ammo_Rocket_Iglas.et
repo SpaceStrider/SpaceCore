@@ -1,0 +1,104 @@
+Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  AICombatPropertiesComponent "{59C92CB0FD688D78}" {
+   Priority 20
+  }
+  BGONE_GuidedMissileComponent "{6138225DC04455B0}" {
+   m_eSeekerTypeComponent BGONE_SeekerType_VIS "{6138225DA9776F27}" {
+    m_fTimeToLive 14
+    m_fSeekerFieldOfView 180
+   }
+   m_eAttackProfileComponents {
+    BGONE_AttackProfile_DIR "{6138225DB2E211FD}" {
+    }
+   }
+   m_eMissileEngineComponent BGONE_MissileEngine_Simulated "{6138225DC04455C8}" {
+    m_fBurnTime 25
+    m_fMaximumSpeed 570
+    m_fTimeToLive 25
+    m_fMinDeflection 0.001
+   }
+  }
+  CollisionTriggerComponent "{6138225DC04455D5}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{6138225DC04455D0}" {
+     EffectPrefab "{61853F5847BCAA1D}Prefabs/Weapons/Warheads/Warhead_HE_Igla.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   SafetyDistance 10
+  }
+  InventoryItemComponent "{526E87778842822F}" {
+   Attributes SCR_ItemAttributeCollection "{526E87778ACB229F}" {
+    ItemDisplayName UIInfo "{526E8777859BAACF}" {
+     Name "#AR-Magazine_PG7VM_Name"
+     Description "#AR-Magazine_PG7VM_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6138225DC04455DE}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 1200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6138225DC04455DB}" {
+      CameraPreset Top
+      CameraDistanceToItem 2.3
+      ItemRenderRotation 0 270 0
+      FOV 10
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  MagazineComponent "{50F6614BB5D5B0A8}" {
+   MagazineWell MagazineWell9K11 "{6138225DC04455E7}" {
+   }
+   UIInfo MagazineUIInfo "{560AE4EBFA0176D4}" {
+    Name "9K11"
+    Description "#AR-Magazine_PG7VM_Description"
+    m_sAmmoCaliber "#AR-AmmunitionID_70mm"
+    m_sAmmoType "9K11"
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{BB3F99FC7223DDC5}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM.xob"
+   LODFactors {
+    2 1 0.5 0.1 0.1
+   }
+  }
+  MissileMoveComponent "{0EF36690881261EF}" {
+   InitSpeed 10
+   Mass 1.6
+   TimeToLive 20
+   ProjectileEffects {
+    AIHitEffect "{6138225DC04455EC}" {
+    }
+   }
+   MaxControlRange 0
+   Maneuvrability 0
+   TrackOversteer 0
+   TrackLead 0
+   ThrustInitTime 0.2
+   ThrustTime 25
+   ThrustForce 600
+   ForwardAirFriction 0.1
+   DistanceEnableGravitation 0
+  }
+  RigidBody "{6138225DC04455E9}" {
+   LayerPreset "Projectile"
+   Mass 2.6
+   ModelGeometry 1
+  }
+  RocketTraceEffectComponent "{6138225DC04455F5}" {
+   ParticleEffect "{DD6A20E1F15D912D}Particles/Weapons/Trail_GuidedRocket.ptc"
+  }
+ }
+ SpawnAsCartridge 0
+ ProjectileModel "{E597139BEB2C8619}Assets/Weapons/MissileRacks/Igla/Igla_Missile.xob"
+ CartridgeModel "{E597139BEB2C8619}Assets/Weapons/MissileRacks/Igla/Igla_Missile.xob"
+}

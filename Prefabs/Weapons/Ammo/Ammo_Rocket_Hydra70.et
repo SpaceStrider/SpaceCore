@@ -1,0 +1,79 @@
+Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  AICombatPropertiesComponent "{59C92CB0FD688D78}" {
+   Priority 20
+  }
+  CollisionTriggerComponent "{5E52AE0D7AED9D53}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5E52AE0D7AED9D5E}" {
+     EffectPrefab "{22F84B288DA11E70}Prefabs/Weapons/Warheads/Warhead_HEAT_Hydra70.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   SafetyDistance 10
+  }
+  InventoryItemComponent "{526E87778842822F}" {
+   Attributes SCR_ItemAttributeCollection "{526E87778ACB229F}" {
+    ItemDisplayName UIInfo "{526E8777859BAACF}" {
+     Name "#AR-Magazine_PG7VM_Name"
+     Description "#AR-Magazine_PG7VM_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5E52AE0D7AED9D47}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 1200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5E52AE0D7AED9D43}" {
+      CameraPreset Top
+      CameraDistanceToItem 2.3
+      ItemRenderRotation 0 270 0
+      FOV 10
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  MagazineComponent "{50F6614BB5D5B0A8}" {
+   MagazineWell MagazineWell9K11 "{5E52AE0D7AED9D4E}" {
+   }
+   UIInfo MagazineUIInfo "{560AE4EBFA0176D4}" {
+    Name "9K11"
+    Description "#AR-Magazine_PG7VM_Description"
+    m_sAmmoCaliber "#AR-AmmunitionID_70mm"
+    m_sAmmoType "9K11"
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{BB3F99FC7223DDC5}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM.xob"
+   LODFactors {
+    2 1 0.5 0.1 0.1
+   }
+  }
+  MissileMoveComponent "{0EF36690881261EF}" {
+   InitSpeed 140
+   TimeToLive 20
+   MaxControlRange 0
+   Maneuvrability 0
+   TrackOversteer 0
+   TrackLead 0
+   ThrustInitTime 0.1
+   ThrustTime 1
+   ThrustForce 6739
+   ForwardAirFriction 0.08
+   SideAirFriction 0.04
+   AlignTorque 0.04
+   DistanceEnableGravitation 0.4
+  }
+  RocketTraceEffectComponent "{5E52AE0D7AED9D74}" {
+   ParticleEffect "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
+  }
+ }
+ ProjectileModel "{7782817F5BC481F8}Assets/Weapons/RocketPods/LAU-68/LAU-68_Rocket.xob"
+ CartridgeModel "{7782817F5BC481F8}Assets/Weapons/RocketPods/LAU-68/LAU-68_Rocket.xob"
+}

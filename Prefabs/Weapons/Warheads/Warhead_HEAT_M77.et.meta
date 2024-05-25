@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1B97EF105D575F95}Prefabs/Weapons/Warheads/Warhead_HEAT_M77.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

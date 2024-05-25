@@ -1,0 +1,106 @@
+Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  AICombatPropertiesComponent "{59C92CB0FD688D78}" {
+   Priority 20
+   UsedAgainst 16
+  }
+  BGONE_GuidedMissileComponent "{605A4AF622FE5D82}" {
+   m_eSeekerTypeComponent BGONE_SeekerType_VIS "{605A4AF622FE5D88}" {
+    m_fTimeToLive 15
+    m_fSeekerFieldOfView 90
+   }
+   m_eAttackProfileComponents {
+    BGONE_AttackProfile_DIR "{605A4AF622FE5D8A}" {
+    }
+   }
+   m_eMissileEngineComponent BGONE_MissileEngine_Simulated "{605A4AF622FE5D95}" {
+    m_fThrustDelay 0.1
+    m_fBurnTime 12
+    m_fMaximumSpeed 670
+    m_fTimeToLive 18
+    m_fMaxDeflection 0.004
+   }
+  }
+  CollisionTriggerComponent "{605A4AF622FE5D96}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{605A4AF622FE5D93}" {
+     EffectPrefab "{8A67D37A8B888CC3}Prefabs/Weapons/Warheads/Warhead_HE_FIM92.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   SafetyDistance 10
+  }
+  InventoryItemComponent "{526E87778842822F}" {
+   Attributes SCR_ItemAttributeCollection "{526E87778ACB229F}" {
+    ItemDisplayName UIInfo "{526E8777859BAACF}" {
+     Name "9M113"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{605A4AF622FE5D9B}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 1200
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{605A4AF622FE5DA4}" {
+      CameraPreset Top
+      CameraDistanceToItem 2.3
+      ItemRenderRotation 0 270 0
+      FOV 10
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+   }
+  }
+  MagazineComponent "{50F6614BB5D5B0A8}" {
+   MagazineWell MagazineWellFIM92 "{6060BCCB97D9B884}" {
+   }
+   UIInfo MagazineUIInfo "{560AE4EBFA0176D4}" {
+    Name "FIM92"
+    m_sAmmoCaliber "#AR-AmmunitionID_70mm"
+    m_sAmmoType "FIM92"
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{811F4EBA6C0DF8D2}Assets/Weapons/Magazines/AIM92/aim92_loaded.xob"
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{811F4EBA6C0DF8D2}Assets/Weapons/Magazines/AIM92/aim92_loaded.xob"
+  }
+  MissileMoveComponent "{0EF36690881261EF}" {
+   InitSpeed 20
+   TimeToLive 20
+   ProjectileEffects {
+    BaseDamageEffect "{56829D01651CE9A7}" {
+     DamageValue 300
+    }
+    AIHitEffect "{605A4AF622FE5DA9}" {
+    }
+   }
+   MaxControlRange 0
+   Maneuvrability 0
+   TrackOversteer 0
+   TrackLead 0
+   ThrustInitTime 0.1
+   ThrustTime 12
+   ThrustForce 1500
+   ForwardAirFriction 0.2
+   SideAirFriction 0.08
+   AlignTorque 1
+   DistanceEnableGravitation 5
+  }
+  RigidBody "{605A4AF622FE5DAB}" {
+   LayerPreset "Projectile"
+   Mass 10
+   ModelGeometry 1
+  }
+  RocketTraceEffectComponent "{605A4AF622FE5DB5}" {
+   ParticleEffect "{E5C98CA5701875D0}Particles/Weapons/Trail_AAMissile.ptc"
+  }
+ }
+ ProjectileVisibleTimeScale 4
+ ProjectileModel "{C4985FF3B27743B4}Assets/Weapons/Magazines/AIM92/aim92.xob"
+ CartridgeModel "{811F4EBA6C0DF8D2}Assets/Weapons/Magazines/AIM92/aim92_loaded.xob"
+}

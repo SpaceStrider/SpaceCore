@@ -1,0 +1,114 @@
+TracerProjectile : "{0DF9FE819A9D3648}Prefabs/Weapons/Ammo/Ammo_30x165_APDS-T_3UBR8.et" {
+ coords 162 1 185
+}
+Projectile : "{0E9EE6B2082BA4CE}Prefabs/Weapons/Ammo/Ammo_HEAT_M456A2_Penetrator.et" {
+ coords 152.94 1 186.88
+}
+TracerProjectile : "{1BF6A4425A93D84C}Prefabs/Weapons/Ammo/Ammo_100mm_HE_3OF32.et" {
+ coords 151 1 185
+}
+TracerProjectile : "{1FEAF71CA00DD098}Prefabs/Weapons/Ammo/Ammo_20x102_HEI_M56.et" {
+ coords 168 1 185
+}
+GenericEntity : "{250CCD685336BC19}Prefabs/Weapons/Warheads/Warhead_HEAT_M72A3.et" {
+ coords 148.399 1 185.747
+}
+Projectile : "{2D86FDF6894069B3}Prefabs/Weapons/Ammo/Ammo_Rocket_M72A3_Penetrator.et" {
+ coords 148.397 1 186.485
+}
+Projectile : "{31D32929F2C68D43}Prefabs/Weapons/Ammo/Ammo_Missile_AGM114.et" {
+ coords 120.987 1 186.935
+}
+Projectile : "{3210AFF4BFA71798}Prefabs/Weapons/Ammo/Ammo_Shell_M830_Penetrator.et" {
+ coords 159.996 1 187.04
+}
+Projectile : "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" {
+ coords 147.658 1 185.058
+}
+TracerProjectile : "{3B7662029C4285B0}Prefabs/Weapons/Ammo/Ammo_100mm_HE_3OF19.et" {
+ coords 150 1 185
+}
+TracerProjectile : "{4A8C01F09225F720}Prefabs/Weapons/Ammo/Ammo_120mm_HE-T.et" {
+ coords 157 1 185
+}
+TracerProjectile : "{5D7DDA86F9AC9505}Prefabs/Weapons/Ammo/Ammo_120mm_APFSDS-T_M829A1.et" {
+ coords 154 1 185
+}
+TracerProjectile : "{5DD797F846EA262E}Prefabs/Weapons/Ammo/Ammo_105mm_HEATFS_M456A2.et" {
+ coords 153 1 185
+}
+Projectile : "{66485C883DCB43A2}Prefabs/Weapons/Ammo/Ammo_20x102_API_M53.et" {
+ coords 165 1 185
+}
+TracerProjectile : "{6760C6582F09E5CD}Prefabs/Weapons/Ammo/Ammo_30x165_HEF-I_3UOF8.et" {
+ coords 163 1 185
+}
+Projectile : "{796D374D4D087816}Prefabs/Weapons/Ammo/Ammo_30x113_HEDP_M789.et" {
+ coords 158 1 185
+}
+Projectile : "{79FA751EEBE25DDE}Prefabs/Weapons/Ammo/Ammo_Rocket_M72A3.et" {
+ coords 148.394 1 185.064
+}
+TracerProjectile : "{81D0B2BFF9D25E63}Prefabs/Weapons/Ammo/Ammo_120mm_APFSDS-T_M829A2.et" {
+ coords 155 1 185
+}
+Projectile : "{8DDF473933AF2C94}Prefabs/Weapons/Ammo/Ammo_120mm_Canister_M1028.et" {
+ coords 156 1 185
+}
+Projectile : "{99D8089D5136965A}Prefabs/Weapons/Ammo/Ammo_120mm_HEATFS_M830.et" {
+ coords 160 1 185
+}
+TracerProjectile : "{9F1CBB3FF6A31A6A}Prefabs/Weapons/Ammo/Ammo_73mm_HE_OG9.et" {
+ coords 169 1 185
+}
+Projectile : "{B40479180A86C261}Prefabs/Weapons/Ammo/Ammo_Rocket_M72A3_Spall.et" {
+ coords 148.398 1 187.598
+}
+Projectile : "{B9F8BCBAAD0849AC}Prefabs/Weapons/Ammo/Ammo_Missile_9M120.et" {
+ coords 123.442 1 186.938
+}
+TracerProjectile : "{BA51DB514BDBBC03}Prefabs/Weapons/Ammo/Ammo_73mm_HEAT_PG9.et" {
+ coords 170 1 185
+}
+TracerProjectile : "{BA7EBCAA92439C60}Prefabs/Weapons/Ammo/Ammo_30x165_AP-T_3UBR6.et" {
+ coords 159 1 185
+}
+Projectile : "{BFEFA34C3A3FC77B}Prefabs/Weapons/Ammo/Ammo_APFSDS_M900_Spall.et" {
+ coords 152 1 187
+}
+GenericEntity : "{D649A52C2A1A29FF}Prefabs/Weapons/Warheads/Warhead_HEAT_PG7VM.et" {
+ coords 147.605 1 185.943
+}
+TracerProjectile : "{DB3235C23AACE5FD}Prefabs/Weapons/Ammo/Ammo_30x173_APFSDS_GAU-8.et" {
+ coords 166 1 185
+}
+TracerProjectile : "{E199DE601FF9B919}Prefabs/Weapons/Ammo/Ammo_30x173_HEIT_GAU-8.et" {
+ coords 167 1 185
+}
+Projectile : "{E6EC1F21E22709F0}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM_Penetrator.et" {
+ coords 147.544 1 187.091
+}
+Projectile : "{EC754D11D6FE0166}Prefabs/Weapons/Ammo/Ammo_Rocket_PG9_Penetrator.et" {
+ coords 170.006 1 187.022
+}
+Projectile : "{ECD8628EBF7E5F6B}Prefabs/Weapons/Ammo/Ammo_Rocket_Hydra70.et" {
+ coords 117.744 1 187.09
+}
+TracerProjectile : "{F13841C887A6E200}Prefabs/Weapons/Ammo/Ammo_125mm_HE_3OF26.et" {
+ coords 164 1 185
+}
+TracerProjectile : "{F14086F5170D1457}Prefabs/Weapons/Ammo/Ammo_125mm_APFSDS_3BM15.et" {
+ coords 161 1 185
+}
+TracerProjectile : "{F9D2E0F111B114EC}Prefabs/Weapons/Ammo/Ammo_105mm_APFSDS_MGS_M900.et" {
+ components {
+  CollisionTriggerComponent "{611C9EA0FC4DAD23}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{611C9EA04CA055B0}" {
+     ExitEffectPrefab "{872637156F18BBE2}Prefabs/Weapons/Warheads/Warhead_Spall_M900.et"
+    }
+   }
+  }
+ }
+ coords 152 1 185
+}

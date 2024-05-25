@@ -1,0 +1,38 @@
+GenericEntity : "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellBGM71TOW "{609230895238E328}" {
+   }
+   ItemModel "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+   MaxAmmo 4
+   AmmoConfig "{B8035802B9088948}Configs/Weapons/Ammo/Ammo_BGM71.conf"
+   AmmoMapping {
+    0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{363B058FE1D67DCC}Assets/Weapons/MissileRacks/BGM-71/BGM-71_Missiles.xob"
+   ObjectHeightmapBias 0
+  }
+  RigidBody "{571B0382401B1385}" {
+   Enabled 0
+  }
+  MagazineAnimationComponent "{609230895238E330}" {
+   AnimGraph "{6E94E275C76E7E3C}Assets/Weapons/Magazines/workspaces/M249_magazine.agr"
+   AnimInstance "{83FEB7AEDB672CD2}Assets/Weapons/Magazines/workspaces/M249_Magazine.asi"
+   AnimCommandsToBind {
+    ""
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+    ""
+   }
+   DeactivationDelay 0
+   AnimatedMesh "{363B058FE1D67DCC}Assets/Weapons/MissileRacks/BGM-71/BGM-71_Missiles.xob"
+   BulletMeshesToHide {
+    "bgm-71_missile_body.002" "bgm-71_missile_body.003" "bgm-71_missile_body.004" "bgm-71_missile_body.005"
+   }
+  }
+ }
+}

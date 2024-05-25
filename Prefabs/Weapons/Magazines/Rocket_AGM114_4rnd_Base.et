@@ -1,0 +1,38 @@
+GenericEntity : "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellAGM114Hellfire "{6092308947F8C9D2}" {
+   }
+   ItemModel "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+   MaxAmmo 4
+   AmmoConfig "{235C720401E92A61}Configs/Weapons/Ammo/Ammo_AGM114.conf"
+   AmmoMapping {
+    0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{71C4CE3125F24E05}Assets/Weapons/MissileRacks/AGM-114/AGM-114_Missiles.xob"
+   ObjectHeightmapBias 0
+  }
+  RigidBody "{571B0382401B1385}" {
+   Enabled 0
+  }
+  MagazineAnimationComponent "{6092308947F8C9E5}" {
+   AnimGraph "{6E94E275C76E7E3C}Assets/Weapons/Magazines/workspaces/M249_magazine.agr"
+   AnimInstance "{83FEB7AEDB672CD2}Assets/Weapons/Magazines/workspaces/M249_Magazine.asi"
+   AnimCommandsToBind {
+    ""
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+    ""
+   }
+   DeactivationDelay 0
+   AnimatedMesh "{71C4CE3125F24E05}Assets/Weapons/MissileRacks/AGM-114/AGM-114_Missiles.xob"
+   BulletMeshesToHide {
+    "agm-114_missile_01" "agm-114_missile_02" "agm-114_missile_03" "agm-114_missile_04"
+   }
+  }
+ }
+}

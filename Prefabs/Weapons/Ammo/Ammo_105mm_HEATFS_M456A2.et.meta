@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5DD797F846EA262E}Prefabs/Weapons/Core/Ammo_105mm_HEATFS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

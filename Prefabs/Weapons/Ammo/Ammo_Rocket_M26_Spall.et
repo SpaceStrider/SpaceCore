@@ -1,0 +1,35 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{5DF65E03FD02E6E1}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5DF65E03C6F8C04A}" {
+     EffectPrefab "{1B97EF105D575F95}Prefabs/Weapons/Warheads/Warhead_HEAT_M77.et"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  InventoryItemComponent "{52627A13050713F1}" {
+   Enabled 0
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 25
+   ParentSpeedMultiplier 0.6
+   Mass 0.5
+   TimeToLive 1000
+   ProjectileEffects {
+    AIHitEffect "{C422E51CCDDF6BD3}" {
+     Enabled 0
+    }
+   }
+   BallisticTableConfig "{E21489D6FC1E47B9}Configs/Weapons/AIBallisiticTables/AIBT_Grenade_HEDP_M433.conf"
+   AirDrag 0.001
+   Diameter 40
+   DeflectionCriticalAngle 1
+   PenetratorType Chemical
+   PenetrationDepth 4.5
+   PenetrationDirDistribution 0.1
+  }
+ }
+ ProjectileModel "{D79EBB1BB388141E}Assets/Weapons/Ammo/Grenades/M433/M433_projectile.xob"
+}

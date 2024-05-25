@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.292 0.255 0.189 1
+ RoughnessScale 0.7
+ BCRMap "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ GlobalMapsUVTransform MatUVTransform "{5DA01AF4776B86E9}" {
+  TilingU 3
+  TilingV 3
+ }
+}

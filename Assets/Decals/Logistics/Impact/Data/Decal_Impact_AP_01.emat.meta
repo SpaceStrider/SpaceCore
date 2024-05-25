@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{103E6356DC0822EC}Assets/Decals/Logistics/Impact/Data/Decal_Impact_AP_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
