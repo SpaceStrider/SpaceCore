@@ -24,16 +24,5 @@ GenericEntity : "{3BF82FD68BBC845C}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M1
   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
    Enabled 0
   }
-  SCR_MineAnimationComponent "{60FA684F243DB242}" {
-   AnimGraph "{0292B12F97C52891}Assets/Weapons/Explosives/workspace/M15AT_mine.agr"
-   AnimInstance "{CD76B2501A263ED9}Assets/Weapons/Explosives/workspace/M15AT_weapon.asi"
-   AnimInjection AnimationAttachmentInfo "{60FA684F243DB248}" {
-    AnimGraph "{0292B12F97C52891}Assets/Weapons/Explosives/workspace/M15AT_mine.agr"
-    AnimInstance "{6B45479C2EB8C5AA}Assets/Weapons/Explosives/workspace/M15AT_player.asi"
-    BindingName "Heavy"
-   }
-   BindWithInjection 1
-   AutoVariablesBind 1
-  }
  }
 }
