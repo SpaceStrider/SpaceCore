@@ -11,6 +11,7 @@ GenericEntity : "{D14EC0B3BFCE1A8D}Prefabs/Weapons/Core/VehicleLauncher_Base_01.
   }
   RigidBody "{60967159F883F681}" {
    Mass 200
+   SimState Collision
    ModelGeometry 1
   }
   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {

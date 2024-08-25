@@ -232,7 +232,7 @@ ProcAnimProjectClass {
    }
   }
  }
- model "{D645CA5944A81699}Assets/Vehicles/Tracked/T-72A/t-72a_base.xob"
+ model "{89447B8C503232EA}Assets/Vehicles/Wheeled/BTR70/BTR70_body.xob"
  version 1
  compiled ProcAnimCompiledClass {
   visited {

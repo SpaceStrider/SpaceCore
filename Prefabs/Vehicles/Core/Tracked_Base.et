@@ -10,7 +10,7 @@ Tank : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
    }
    m_fVehicleDamageSpeedThreshold 20
   }
-  VehicleWheeledSimulation_SA "{731B26FCA2F19855}" {
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     NoiseSteerSensitivity 0.5
     RoughnessSensitivity 0.5

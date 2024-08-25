@@ -1,4 +1,4 @@
-class RAM_TriplexEntitySlotInfo : EntitySlotInfo
+class RAM_TriplexEntitySlotInfo : RegisteringComponentSlotInfo
 {
 	[Attribute("")]
 	ref RAM_CustomCameraPointInfo m_CameraPointInfo;
