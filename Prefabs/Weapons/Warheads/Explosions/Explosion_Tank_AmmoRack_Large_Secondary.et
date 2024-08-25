@@ -7,8 +7,8 @@ GenericEntity : "{8F84F33B46DBA2CA}Prefabs/Weapons/Warheads/Explosions/Explosion
   TimerTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
     ExplosionDamageContainer "{5D8D1EB3E2893B43}" {
-     ExplosionDamageEffects {
-      BaseExplosionDamageEffect "{5D8D1EB3EF9D02C6}" {
+     ExplosionEffects {
+      BaseExplosionDamage "{5D8D1EB3EF9D02C6}" {
        DamageValue 2000
        DamageDistance 1
       }

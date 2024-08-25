@@ -9,7 +9,7 @@ GenericEntity : "{7DA2AFFC7B4BE844}Prefabs/Weapons/Warheads/Warhead_Grenade_HE.e
   BaseTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
     ExplosionDamageContainer "{567CBC1CFBB064A8}" {
-     ExplosionDamageEffects {
+     ExplosionEffects {
       ExplosionFragmentationEffect "{567CBC1CF724A638}" {
        CaseWeight 4000
       }

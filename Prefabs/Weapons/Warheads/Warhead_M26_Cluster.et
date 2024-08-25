@@ -3,12 +3,12 @@ GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
  components {
   BaseTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
-    SubmunitionDamageEffect "{5DF64B019522AD86}" {
+    SubmunitionEffect "{5DF64B019522AD86}" {
      Prefab "{1A867B34E5C2846B}Prefabs/Weapons/Ammo/Ammo_Rocket_M26_Spall.et"
      Count 100
      Dispersion 180
     }
-    SubmunitionDamageEffect "{5E0614275CED5E44}" {
+    SubmunitionEffect "{5E0614275CED5E44}" {
      Prefab "{1A867B34E5C2846B}Prefabs/Weapons/Ammo/Ammo_Rocket_M26_Spall.et"
      Count 100
      Dispersion 180

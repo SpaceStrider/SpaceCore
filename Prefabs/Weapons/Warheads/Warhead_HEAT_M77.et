@@ -4,7 +4,7 @@ GenericEntity : "{492CA9A2919ECA45}Prefabs/Weapons/Warheads/Warhead_Mine_HE.et" 
   BaseTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
     ExplosionDamageContainer "{5A12D2D8ABE24913}" {
-     ExplosionDamageEffects {
+     ExplosionEffects {
       ExplosionImpulseEffect "{567CBC1CFF59314D}" {
        PerformTraces 0
       }
@@ -15,7 +15,7 @@ GenericEntity : "{492CA9A2919ECA45}Prefabs/Weapons/Warheads/Warhead_Mine_HE.et" 
        FragMassScale 100
        FragRangeFactor 0.6
       }
-      BaseExplosionDamageEffect "{588883B3410C519A}" {
+      BaseExplosionDamage "{588883B3410C519A}" {
        DamageValue 12
        PerformTraces 1
       }

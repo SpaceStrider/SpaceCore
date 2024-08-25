@@ -75,7 +75,7 @@ Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
    AlignTorque 0.04
    DistanceEnableGravitation 0.4
   }
-  RigidBody "{5E52AE0D7AED9D77}" {
+  RigidBody "{529E88841E9EDFB4}" {
    LayerPreset "Projectile"
    Mass 2.6
    ModelGeometry 1

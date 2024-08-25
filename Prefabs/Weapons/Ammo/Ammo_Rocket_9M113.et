@@ -74,7 +74,7 @@ Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
    Mass 1.6
    TimeToLive 20
    ProjectileEffects {
-    BaseDamageEffect "{56829D01651CE9A7}" {
+    ProjectileDamage "{56829D01651CE9A7}" {
      DamageValue 300
     }
     AIHitEffect "{5E56888F5E44F550}" {
@@ -93,7 +93,7 @@ Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
    AlignTorque 0.01
    DistanceEnableGravitation 0.1
   }
-  RigidBody "{5E56888F5E44F552}" {
+  RigidBody "{529E88841E9EDFB4}" {
    LayerPreset "Projectile"
    Mass 2.6
    ModelGeometry 1

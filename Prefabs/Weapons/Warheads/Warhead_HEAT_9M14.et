@@ -4,7 +4,7 @@ GenericEntity : "{8C3C62C58D2DBEDA}Prefabs/Weapons/Warheads/Warhead_HEAT.et" {
   BaseTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
     ExplosionDamageContainer "{567CBC1D0F5B4AEA}" {
-     ExplosionDamageEffects {
+     ExplosionEffects {
       ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
        GurneyConstant 2830
        CaseWeight 3680
@@ -13,10 +13,10 @@ GenericEntity : "{8C3C62C58D2DBEDA}Prefabs/Weapons/Warheads/Warhead_HEAT.et" {
      ChargeWeight 3250
      TntEquivalent 1
     }
-    SubmunitionDamageEffect "{567CB8E002C26D97}" {
+    SubmunitionEffect "{567CB8E002C26D97}" {
      Prefab "{E4A6B8121133095E}Prefabs/Weapons/Ammo/Ammo_Rocket_9M14_Penetrator.et"
     }
-    SubmunitionDamageEffect "{5D692C94EC533259}" {
+    SubmunitionEffect "{5D692C94EC533259}" {
      Prefab "{A548DE889A121456}Prefabs/Weapons/Ammo/Ammo_Rocket_9M14_Spall.et"
     }
    }

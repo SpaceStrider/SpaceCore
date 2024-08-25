@@ -5,7 +5,7 @@ Projectile : "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et" {
    Mass 0.5
    TimeToLive 0.1
    ProjectileEffects {
-    BaseDamageEffect "{5E1425A4ACC9835D}" {
+    ProjectileDamage "{5E1425A4ACC9835D}" {
      DamageType Incendiary
     }
    }

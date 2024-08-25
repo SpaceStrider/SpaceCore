@@ -4,15 +4,15 @@ GenericEntity : "{BCE4E0823FCFBCB7}Prefabs/Weapons/Warheads/Explosions/Explosion
   TimerTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
     ExplosionDamageContainer "{5D8D1EB3E2893B43}" {
-     ExplosionDamageEffects {
-      BaseExplosionDamageEffect "{5D8D1EB3EF9D02C6}" {
+     ExplosionEffects {
+      BaseExplosionDamage "{5D8D1EB3EF9D02C6}" {
        PerformTraces 0
       }
       ExplosionFragmentationEffect "{5D8D1EB3EC556330}" {
        PerformTraces 0
        DamageFragmentCount 1
       }
-      BaseExplosionDamageEffect "{5D8D1EB3EBB36077}" {
+      BaseExplosionDamage "{5D8D1EB3EBB36077}" {
        PerformTraces 0
       }
      }
