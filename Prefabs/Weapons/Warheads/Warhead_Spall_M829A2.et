@@ -3,7 +3,7 @@ GenericEntity : "{1E29CFA773A85605}Prefabs/Weapons/Warheads/Warhead_AP_Spall_Bas
  components {
   BaseTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
-    SubmunitionDamageEffect "{612616B8D135234C}" {
+    SubmunitionEffect "{612616B8D135234C}" {
      Prefab "{EAB8223ADBB2AA24}Prefabs/Weapons/Ammo/Ammo_APFSDS_M829A2_Spall.et"
     }
    }

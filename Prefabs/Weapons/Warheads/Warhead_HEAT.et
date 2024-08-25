@@ -19,14 +19,14 @@ GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
        FragMassScale 5
        FragRangeFactor 0.5
       }
-      BaseExplosionDamageEffect "{5884B60802925610}" : "{ACBA86677A85EA46}Prefabs/Weapons/Core/Damage/IncendiaryDamageEffect.conf" {
+      BaseExplosionDamage "{5884B60802925610}" : "{ACBA86677A85EA46}Prefabs/Weapons/Core/Damage/IncendiaryDamageEffect.conf" {
       }
      }
     }
-    SubmunitionDamageEffect "{5E664CAF3C2425DF}" {
+    SubmunitionEffect "{5E664CAF3C2425DF}" {
      Prefab "{165D6196250A1320}Prefabs/Weapons/Core/Ammo_Penetrator_Base.et"
     }
-    SubmunitionDamageEffect "{5E664CAF3C2425D9}" {
+    SubmunitionEffect "{5E664CAF3C2425D9}" {
      Prefab "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et"
      Count 30
      Dispersion 60

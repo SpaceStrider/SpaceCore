@@ -15,7 +15,7 @@ GenericEntity : "{7DA2AFFC7B4BE844}Prefabs/Weapons/Warheads/Warhead_Grenade_HE.e
       ExplosionFragmentationEffect "{567CBC1CF724A638}" {
        CaseWeight 372
       }
-      BaseExplosionDamageEffect "{588883B3410C519A}" {
+      BaseExplosionDamage "{588883B3410C519A}" {
       }
      }
      ChargeWeight 75

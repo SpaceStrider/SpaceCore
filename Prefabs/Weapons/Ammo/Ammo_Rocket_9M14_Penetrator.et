@@ -3,10 +3,10 @@ Projectile : "{165D6196250A1320}Prefabs/Weapons/Core/Ammo_Penetrator_Base.et" {
  components {
   ShellMoveComponent "{851AA4A2AE0A5691}" {
    ProjectileEffects {
-    BaseDamageEffect "{5168BBF3DBD79134}" {
+    ProjectileDamage "{5168BBF3DBD79134}" {
      DamageValue 800
     }
-    BaseDamageEffect "{5ED2C76A9D319759}" {
+    ProjectileDamage "{5ED2C76A9D319759}" {
      DamageValue 10
     }
    }
