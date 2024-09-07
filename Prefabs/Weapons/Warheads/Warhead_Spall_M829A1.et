@@ -5,8 +5,11 @@ GenericEntity : "{1E29CFA773A85605}Prefabs/Weapons/Warheads/Warhead_AP_Spall_Bas
    PROJECTILE_EFFECTS {
     SubmunitionEffect "{612616B8D135234C}" {
      Prefab "{AA48031F6DAE2863}Prefabs/Weapons/Ammo/Ammo_APFSDS_M829A1_Spall.et"
+     Count 30
+     Dispersion 60
     }
    }
+   TriggerOffset 0
   }
  }
 }

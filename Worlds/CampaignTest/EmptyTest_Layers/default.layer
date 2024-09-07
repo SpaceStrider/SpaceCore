@@ -16,8 +16,13 @@ GenericEntity : "{3BAD41B84BDF6C64}Prefabs/Weapons/RocketPods/VehicleLauncher_LA
 GenericEntity : "{3C928419352BB999}Prefabs/Weapons/RocketPods/VehicleLauncher_BGM71_R.et" {
  coords 120.227 2.133 177.786
 }
-GenericEntity : "{3D472556C2D7D65B}Prefabs/Weapons/Magazines/Rocket_9M120_4rnd_Base.et" {
- coords 123.462 1 185.064
+$grp GenericEntity : "{3D472556C2D7D65B}Prefabs/Weapons/Magazines/Rocket_9M120_4rnd_Base.et" {
+ {
+  coords 123.462 1 185.064
+ }
+ {
+  coords 101.245 1 210.692
+ }
 }
 GenericEntity : "{4AF901E33A9428E3}Prefabs/Weapons/Magazines/Rocket_Hydra70_7rnd_Base.et" {
  coords 117.741 1 185.156
@@ -36,4 +41,16 @@ GenericEntity : "{6A8FC4CD7F854FD0}Prefabs/Weapons/Magazines/Rocket_Hydra70_19rn
 }
 GenericEntity : "{6AF5FA1A839A4980}Prefabs/Weapons/MachineGuns/M60/MG_M60_Mounted.et" {
  coords 167.127 1 165.187
+}
+Projectile : "{B9F8BCBAAD0849AC}Prefabs/Weapons/Ammo/Ammo_Missile_9M120.et" {
+ coords 102.395 1 210.834
+}
+Turret : "{F84B8A18FCA1CDD0}Prefabs/Vehicles/Helicopters/MI28/VehParts/Turret/MI28_Turret.et" {
+ coords 109.147 1 204.468
+}
+Vehicle MI28_base1 : "{FC30545B07C3478B}Prefabs/Vehicles/Helicopters/MI28/MI28_base.et" {
+ coords 115.638 1 202.719
+}
+GenericEntity : "{FFEC7CBBDA59E0C3}Prefabs/Weapons/RocketPods/VehicleLauncher_9M120.et" {
+ coords 104.332 1.631 209.812
 }

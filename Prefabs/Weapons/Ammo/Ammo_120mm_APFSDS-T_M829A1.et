@@ -21,6 +21,14 @@ TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" 
     ProjectileDamage "{5168BBF3DBD79134}" {
      DamageValue 7000
     }
+    ProjectileDamage "{6206E6F5354B6E79}" {
+     DamageValue 12
+     DamageType Incendiary
+     DamageEffects {
+      SCR_IncendiaryDamageEffect "{6206E6F7BB062795}" {
+      }
+     }
+    }
    }
    BallisticTableConfig "{1F94E27707D679A9}Configs/Weapons/AIBallisiticTables/AIBT_120mm_APFSDS_M829A1.conf"
    AirDrag 0.0012

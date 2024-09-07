@@ -88,13 +88,7 @@ GenericEntity : "{D14EC0B3BFCE1A8D}Prefabs/Weapons/Core/VehicleLauncher_Base_01.
   WeaponComponent "{CFBAA4B706BA66E8}" {
    components {
     BGONE_GuidedMissileLauncherComponent "{6138225E8973A69D}" {
-     m_eLockTypeComponent BGONE_LockType_VIS "{6138225E7A34513F}" {
-      m_iMaxLockOnRange 6000
-      m_iLockOnTime 1
-      m_eUnitTypesToLock {
-       2 4 8
-      }
-      m_bKeepLockAfterFired 1
+     m_eLockTypeComponent BGONE_LockType_SACLOS "{623C93E9A7A95848}" {
      }
     }
     MuzzleComponent "{5E5833608CBE399E}" {

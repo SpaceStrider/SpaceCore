@@ -5,13 +5,11 @@ Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
    Priority 20
   }
   BGONE_GuidedMissileComponent "{61023A640FF65981}" {
-   m_eSeekerTypeComponent BGONE_SeekerType_VIS "{61023A640CAD397A}" {
+   m_eSeekerTypeComponent BGONE_SeekerType_SACLOS "{623C93E9BAEB3849}" {
     m_fTimeToLive 25
-    m_fSeekerFieldOfView 60
-    m_fNoTargetDestructTime 6
    }
    m_eAttackProfileComponents {
-    BGONE_AttackProfile_DIR "{61023A6410893DD7}" {
+    BGONE_AttackProfile_SACLOS "{623C93E9BE3F292D}" {
     }
    }
    m_eMissileEngineComponent BGONE_MissileEngine_Simulated "{61023A64114796CD}" {

@@ -13,6 +13,7 @@ GenericEntity : "{8C3C62C58D2DBEDA}Prefabs/Weapons/Warheads/Warhead_HEAT.et" {
        DamageValue 3
        DamageDistance 20
        ExplosionEffectSpeed 2077
+       DamageFragmentCount 150
        GurneyConstant 2370
        CaseWeight 2700
        FragMassScale 50
@@ -26,7 +27,8 @@ GenericEntity : "{8C3C62C58D2DBEDA}Prefabs/Weapons/Warheads/Warhead_HEAT.et" {
      TntEquivalent 1
     }
     SubmunitionEffect "{567CB8E002C26D97}" {
-     Prefab "{3210AFF4BFA71798}Prefabs/Weapons/Ammo/Ammo_Shell_M830_Penetrator.et"
+     TriggerOnce 1
+     Prefab "{3210AFF4BFA71798}Prefabs/Weapons/Ammo/Ammo_HEAT_M830_Penetrator.et"
     }
     SubmunitionEffect "{5D692C94EC533259}" {
      Prefab "{7CC1697D08638B5C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM_Spall.et"

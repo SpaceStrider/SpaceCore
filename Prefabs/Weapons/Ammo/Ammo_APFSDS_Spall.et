@@ -4,7 +4,6 @@ Projectile : "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et" {
   ShellMoveComponent "{851AA4A2AE0A5691}" {
    InitSpeed 100
    ParentSpeedMultiplier 0.8
-   Diameter 6
    PenetratorType Kinetic
    PenetrationDepth 450
    PenetrationSpeed 1500

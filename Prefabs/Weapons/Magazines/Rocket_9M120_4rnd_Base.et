@@ -5,10 +5,10 @@ GenericEntity : "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et"
    MagazineWell MagazineWell9M120Ataka "{60FE3452D07FDEF7}" {
    }
    ItemModel "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
-   MaxAmmo 4
+   MaxAmmo 8
    AmmoConfig "{AFE97D62770A0447}Configs/Weapons/Ammo/Ammo_9M120.conf"
    AmmoMapping {
-    0 0 0 0
+    0 0 0 0 0 0 0 0
    }
   }
   MeshObject "{CA6BE4D6A23F8EF0}" {
