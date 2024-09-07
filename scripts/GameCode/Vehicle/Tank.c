@@ -33,6 +33,8 @@ class Tank : Vehicle
 	}
     override void EOnInit(IEntity owner)
     {
+        super.EOnInit(owner);
+
         if (SCR_Global.IsEditMode())
             return;
 
