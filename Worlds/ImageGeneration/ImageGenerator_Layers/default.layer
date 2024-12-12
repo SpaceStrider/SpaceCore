@@ -1,11 +1,11 @@
 $grp SCR_EditorImagePositionEntity : "{6827E4D6141D8F9F}Prefabs/Editor/Common/AssetImagePosition.et" {
  Position_Truck2 {
-  coords 7386.49 192.666 4014.45
+  coords 7386.479 192.857 4014.459
   angleX 1.167
   angleY -158.241
   angleZ 4.312
   m_Labels {
-   3 54
+   3 54 1001
   }
   m_fDelay 4
   m_PreviewMesh "{06C865EC0B9277E5}Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob"
@@ -14,7 +14,7 @@ $grp SCR_EditorImagePositionEntity : "{6827E4D6141D8F9F}Prefabs/Editor/Common/As
   }
   m_fLatitude 47.685
   m_fLongitude -27.311
-  m_fTime 0.684
+  m_fTime 0.6
   m_iYear 1989
   m_iMonth 8
   {

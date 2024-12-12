@@ -3,18 +3,30 @@ GameProject {
  GUID "5E389BB9F58B79A6"
  TITLE "SpaceCore"
  Dependencies {
-  "58D0FB3206B6F859"
+  "58D0FB3206B6F859" "629B2BA37EFFD577"
  }
  Configurations {
   GameProjectConfig PC {
-  }
-  GameProjectConfig HEADLESS {
   }
   GameProjectConfig XBOX_ONE {
   }
   GameProjectConfig XBOX_SERIES {
   }
   GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 : PC {
+   PlatformHardware PS5
+   DefaultSettings EngineUserSettings "{5702F087A781A9FC}" {
+    VideoUserSettings VideoUserSettings "{B272A67DB18E04F9}" {
+     FsrEnabled 1
+    }
+   }
+   ChimeraGlobalConfig ChimeraGlobalConfig "{6F12664687156A7B}" {
+    "Maximum View Distance" 2000
+    "Minimum View Distance" 2000
+   }
+  }
+  GameProjectConfig HEADLESS {
   }
  }
 }

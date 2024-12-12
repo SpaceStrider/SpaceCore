@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{3D472556C2D7D65B}Prefabs/Weapons/Magazines/Rocket_9M120_4rnd_Base.et"
+ Name "{2CABB9A60865834E}Prefabs/Weapons/Ammo/Ammo_Missile_9M120_WCS.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,6 +1,18 @@
 Tank : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
  ID "BBCBA43A9778AE21"
  components {
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     AirIntakes {
+      PointInfo "{62F95364F5CB3B5F}" {
+       Offset -1.7127 1.5964 -1.7289
+      }
+     }
+     TransmissionRND 1
+    }
+   }
+  }
   SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
    "Additional hit zones" {
     SCR_FlammableHitZone Hull {
@@ -31,6 +43,11 @@ Tank : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
     }
    }
    additionalActions {
+    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" {
+     CanAggregate 1
+    }
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" : "{5AFBAF53711899E9}Configs/Resources/Supplies/Actions/Supplies_Entity_Refund.conf" {
+    }
     SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" {
      ParentContextList {
       "hood_front"
@@ -44,15 +61,10 @@ Tank : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
     SCR_RepairAtSupportStationAction "{5E1CB6DF63753AD9}" {
      CanAggregate 1
     }
-    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" {
-     CanAggregate 1
-    }
     SCR_RepairAtSupportStationAction "{5E3ACC1CF6F95044}" {
      ParentContextList {
       "hood_front"
      }
-    }
-    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" : "{5AFBAF53711899E9}Configs/Resources/Supplies/Actions/Supplies_Entity_Refund.conf" {
     }
    }
   }

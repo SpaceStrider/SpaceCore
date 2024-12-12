@@ -1,11 +1,12 @@
 MetaFileClass {
- Name "{6507EBEA2184BD9C}Assets/Weapons/MissileRacks/Igla_Launcher.xob"
+ Name "{6507EBEA2184BD9C}Assets/Weapons/MissileRacks/Igla/Igla_Launcher.xob"
  Configurations {
   FBXResourceClass PC {
+   ExportSkinning 1
    MaterialAssigns {
     MaterialAssignClass "{60C4245B20D1A8EB}" {
      SourceMaterial "helicopter_weapons_ru"
-     AssignedMaterial "{1060BEA3AA2616E6}Assets/Vehicles/Helicopters/Mi28/Data/helicopter_weapons_ru.emat"
+     AssignedMaterial "{1060BEA3AA2616E6}Assets/Weapons/MissileRacks/Data/helicopter_weapons_ru.emat"
     }
    }
    MeshParams {

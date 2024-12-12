@@ -1,8 +1,0 @@
-GenericEntity : "{33C48FD914954295}Prefabs/Weapons/RocketPods/VehicleLauncher_AGM114.et" {
- ID "CFBAA4B725411E45"
- components {
-  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
-   Priority 3
-  }
- }
-}

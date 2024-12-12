@@ -1,0 +1,57 @@
+VehiclePartPanel : "{0E6D74FBD3EE3829}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_BigScreen.et" {
+ coords 2497.094 148.152 2275.551
+ angleY -96.446
+}
+VehiclePartPanel : "{2DC51D82BC8E8212}Prefabs/Vehicles/Shared/BFV_Periscope.et" {
+ coords 2500.378 149.267 2273.222
+}
+Vehicle APC_K17_Berezok1 : "{31F0866273C46D76}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
+ coords 2512.605 148.37 2277.076
+}
+GenericEntity : "{3DF204EEE0534EF2}Prefabs/Weapons/Launchers/FIM92_Stinger/Launcher_FIM92_Stinger.et" {
+ coords 1160.587 39.01 2280.465
+}
+VehiclePartPanel : "{427E72A620CAC670}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_PMF5.0.et" {
+ coords 2497.797 147.849 2275.572
+}
+$grp Turret : "{4462D57DD5C424C3}Prefabs/Vehicles/Tracked/BFV/BFV_Turret_BASE.et" {
+ {
+  coords 2501.586 147.973 2269.929
+ }
+ {
+  components {
+   WCS_Armament_LoadoutComponent "{62EF3AD14CD98BAA}" {
+    m_ArmamentGroups {
+     WCS_ArmamentSlotGroup "{62EF3AD1BE785308}" {
+      slotIndex 2
+     }
+    }
+   }
+  }
+  coords 2496.635 147.822 2281.625
+ }
+}
+Projectile : "{517333DE6AADE624}Prefabs/Weapons/Ammo/Ammo_Missile_FIM92_Stinger.et" {
+ coords 1161 39.01 2282.412
+}
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ coords 2492.795 147.291 2283.471
+}
+GenericEntity : "{962C400354E4BD6C}Prefabs/Weapons/Launchers/9K38_IGLA/Launcher_9K38_IGLA.et" {
+ coords 1162.093 39.01 2278.918
+}
+Tank M2A2_BODY_BASE1 : "{ABCC1FF0D6096E47}Prefabs/Vehicles/Tracked/BFV/M2A2_BODY_BASE.et" {
+ coords 2501.646 148.022 2278.009
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 2505.929 147.681 2287.632
+}
+VehiclePartPanel : "{C4C669819F1CBAD8}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_TNPO-168A.et" {
+ coords 2499.857 149.311 2273.955
+}
+VehiclePartPanel : "{C719D73C82F675C2}Prefabs/Vehicles/Shared/Gauges_Ru/RHS_Triplext14.et" {
+ coords 2501.171 149.351 2273.621
+}
+VehiclePartPanel : "{CA76E53C9E823BB4}Prefabs/Vehicles/Shared/Gauges_US/BFV_FBCB2.et" {
+ coords 2496.472 148.294 2275.794
+}
