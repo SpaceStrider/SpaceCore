@@ -1,3 +1,6 @@
+Vehicle TWQ_1_Desert1 : "{3B0637FF78D75279}Prefabs/Vehicles/Wheeled/M998/TWQ-1_Desert.et" {
+ coords 7430.825 9.66 6756.082
+}
 $grp SCR_EditorImagePositionEntity : "{6827E4D6141D8F9F}Prefabs/Editor/Common/AssetImagePosition.et" {
  Position_Truck2 {
   coords 7386.479 192.857 4014.459
@@ -73,4 +76,47 @@ $grp SCR_EditorImagePositionEntity : "{6827E4D6141D8F9F}Prefabs/Editor/Common/As
    }
   }
  }
+ Position_Offroad_Armed2 {
+  coords 7420.275 9.689 6735.325
+  angleX 0
+  angleY -115.234
+  angleZ 0
+  m_Labels {
+   3 50 21 1001
+  }
+  m_fDelay 4
+  m_PreviewMesh "{6E1168054FC83085}Assets/Vehicles/Wheeled/M151A2/m151a2_base.xob"
+  m_aCameraNames {
+   "Camera_Offroad_Armed2"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.722
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Offroad_Armed2 {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEC210A44A9F04}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{B92ADD4EBC042B4E}UI/Materials/Editor/AssetImages/Blur_Offroad_Armed.emat"
+       }
+      }
+     }
+    }
+    coords 11.53 0.512 7.71
+    angleX 2.987
+    angleY -124.109
+    FOV 20
+   }
+  }
+ }
+}
+Vehicle TWQ_1 : "{68E22CA466B75C89}Prefabs/Vehicles/Wheeled/M998/TWQ-1.et" {
+ coords 7425.382 9.688 6751.621
+}
+Vehicle TWQ_1_MERDC1 : "{A621BB809DA63878}Prefabs/Vehicles/Wheeled/M998/TWQ-1_MERDC.et" {
+ coords 7435.878 9.593 6761.857
 }
