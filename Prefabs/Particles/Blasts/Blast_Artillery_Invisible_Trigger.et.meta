@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{A9523FAB442BD261}Prefabs/Weapons/Ammo/Ammo_Rocket_M26.et"
+ Name "{1C69E7848E299692}Prefabs/Particles/Blasts/Blast_Artillery_Invisible_Trigger.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

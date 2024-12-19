@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{03F06980285261DC}Prefabs/Weapons/Ammo/Ammo_Rocket_9K11.et"
+ Name "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M26_Cluster.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass XBOX_SERIES : PC {
   }
   EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
   }

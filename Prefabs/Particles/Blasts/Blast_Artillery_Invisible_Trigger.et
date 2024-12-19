@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "631C43339009D154"
+ components {
+  MeshObject "{631C43339009D128}" {
+   Enabled 0
+   Object "{FF35BE9795BA3797}system/wbdata/Gizmo3D/sphere.xob"
+  }
+  SCR_ParticleContactComponent "{631C43339009D126}" {
+   m_bPlayParticle 1
+   m_iGameMaterialEffect BLAST
+   m_iEffectIndex 5
+   m_bFirstContactOnly 1
+   m_bParticleOriented 0
+  }
+ }
+ coords 267.246 5.268 266.649
+}

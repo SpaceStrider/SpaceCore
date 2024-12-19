@@ -1,0 +1,26 @@
+GenericEntity : "{1126AD9D919F82FF}Prefabs/Weapons/Warheads/Warhead_Explosive_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{D1F1826155C70273}Sounds/Particles/Logistics/Explosion/TNT/Particles_Explosions_FAB250.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5F10B4D8DC73BB97}" {
+     ChargeWeight 91000
+    }
+    SpawnDecalEffect "{5F10B4D8DC73BB9A}" {
+     FarPlane 2
+     Scale 10
+     Material "{D73EF1B0C42AD52E}Assets/Decals/Logistics/Data/Logistics_Explosion_Decal_Large.emat"
+    }
+   }
+   TriggerOffset -1
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{FE8B42631A7827B3}Particles/Weapon/Explosion_Fab250.ptc"
+  }
+ }
+}

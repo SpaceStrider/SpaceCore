@@ -1,26 +1,23 @@
 Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
  ID "DA5C6308000CDEF2"
  components {
-  SignalsManagerComponent "{631F74C29F1B8E09}" {
+  SignalsManagerComponent "{631C4B141E306040}" {
   }
-  SCR_ShellSoundComponent "{631F74C29F1B8E19}" {
+  SCR_ShellSoundComponent "{631C43320AD2F33D}" {
    Filenames {
     "{D52579E00CC5B2ED}Sounds/Weapons/_SharedData/ProjectileTravelling/Weapons_ProjectileTravelling_Large_Rocket_Generic.acp"
    }
   }
-  TimerTriggerComponent "{631F74C283945C15}" {
+  CollisionTriggerComponent "{631C3A43FD31C5C5}" {
    PROJECTILE_EFFECTS {
-    ExplosionEffect "{631F74C2FC25B622}" {
-     EffectPrefab "{01A11A10B9BE03EE}Prefabs/Weapons/Warheads/Warhead_M26_Cluster.et"
+    ExplosionEffect "{631C3A43FD31C5D7}" {
+     EffectPrefab "{0D25E6415C3202B2}Prefabs/Weapons/Warheads/Warhead_M31.et"
      ParticleEffect "{FE8B42631A7827B3}Particles/Weapon/Explosion_Fab250.ptc"
      SoundEvent "SOUND_EXPLOSION"
     }
-    AIExplosionEffect "{631F74C2E68F9ED9}" {
+    AIExplosionEffect "{631C3A43FD31C5B0}" {
     }
    }
-   ArmingTime 10
-   SafetyDistance 100
-   TIMER 30
   }
   ShellMoveComponent "{851AA4A2AE0A5691}" {
    InitSpeed 250
@@ -38,7 +35,7 @@ Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
     HitSoundEffect "{2FC22748C7ABD466}" {
      Enabled 0
     }
-    ProjectileDamage "{631F74C29F1B81E4}" {
+    ProjectileDamage "{631C4332A3DE7124}" {
      DamageValue 500
      DamageType Collision
     }
@@ -48,28 +45,28 @@ Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
    PenetrationDepth 0.1
    PenetrationSpeed 100
   }
-  WCS_Armament_FlightComputerComponent "{631F74C29F1B81FC}" {
+  WCS_Armament_FlightComputerComponent "{631F51CE91A4A60A}" {
   }
-  WCS_Armament_ProjectileUIInfoComponent "{631F74C29F1B81FE}" {
+  WCS_Armament_ProjectileUIInfoComponent "{631C4330F608587D}" {
    m_Name "M31"
    m_eAmmoTypeFlags HE
   }
-  WCS_Armament_RocketTraceEffectComponent "{631F74C29F1B81F0}" {
+  WCS_Armament_RocketTraceEffectComponent "{631F51CE3B925689}" {
    m_InitDelay 0.5
    m_Phases {
-    WCS_Armament_RocketTracePhase "{631F74C29F1B81F6}" {
+    WCS_Armament_RocketTracePhase "{631F51CE2B44B3DA}" {
      m_fDuration 5
      m_Particles {
-      WCS_Armament_RocketTracePhaseParticle "{631F74C29F1B81CF}" {
+      WCS_Armament_RocketTracePhaseParticle "{631F51CE1CA73FB8}" {
        m_Particle "{62B3776AD715328B}Particles/Weapon/Trail_IGLA.ptc"
        m_vPosition 0 0 -2
       }
      }
     }
-    WCS_Armament_RocketTracePhase "{631F74C29F1B81C3}" {
+    WCS_Armament_RocketTracePhase "{631F51CE2AFBA748}" {
      m_fDuration 3
      m_Particles {
-      WCS_Armament_RocketTracePhaseParticle "{631F74C29F1B81C5}" {
+      WCS_Armament_RocketTracePhaseParticle "{62B0CEF12A421FD9}" {
        m_Particle "{D116F91880C1A218}Particles/Weapon/Trail_AGM-114.ptc"
        m_vPosition 0 0 -2
       }
@@ -77,7 +74,7 @@ Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
     }
    }
   }
-  RplComponent "{631F74C29F1B81D3}" {
+  RplComponent "{631C4B14036364B2}" {
   }
  }
  ProjectileVisibleTimeScale 2

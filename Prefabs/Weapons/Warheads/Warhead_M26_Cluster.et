@@ -4,12 +4,36 @@ GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
   BaseTriggerComponent "{55129E81CBAA1390}" {
    PROJECTILE_EFFECTS {
     SubmunitionEffect "{5DF64B019522AD86}" {
-     Prefab "{1A867B34E5C2846B}Prefabs/Weapons/Ammo/Ammo_Rocket_M26_Spall.et"
+     Prefab "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M26_Cluster.et"
      Count 100
      Dispersion 180
     }
     SubmunitionEffect "{5E0614275CED5E44}" {
-     Prefab "{1A867B34E5C2846B}Prefabs/Weapons/Ammo/Ammo_Rocket_M26_Spall.et"
+     Prefab "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M26_Cluster.et"
+     Count 100
+     Dispersion 180
+     InitSpeedCoef 1
+    }
+    SubmunitionEffect "{631F74D9ACBE89D1}" {
+     Prefab "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M26_Cluster.et"
+     Count 100
+     Dispersion 180
+     InitSpeedCoef 1
+    }
+    SubmunitionEffect "{631F74D9A8A4EBE9}" {
+     Prefab "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M26_Cluster.et"
+     Count 100
+     Dispersion 180
+     InitSpeedCoef 1
+    }
+    SubmunitionEffect "{631F74D99761AD9B}" {
+     Prefab "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M26_Cluster.et"
+     Count 100
+     Dispersion 180
+     InitSpeedCoef 1
+    }
+    SubmunitionEffect "{631F74D994379E0D}" {
+     Prefab "{9B1A9FB043F21B78}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_M26_Cluster.et"
      Count 100
      Dispersion 180
      InitSpeedCoef 1

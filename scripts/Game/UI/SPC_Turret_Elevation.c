@@ -70,8 +70,8 @@ class SPC_TurretElevation : SCR_InfoDisplay
 		vector globalBearing = Math3D.MatrixToAngles(globalAimTForm);
 		while (globalBearing[0] < 0)
 			globalBearing[0] = globalBearing[0] + 360;
-		globalBearing[1] = (Math.DEG2RAD * globalBearing[1]) * 1000;
+		//globalBearing[1] = (Math.DEG2RAD * globalBearing[1]) * 1000;
 		updateBearing((Math.Round(globalBearing[0]*100)/100).ToString());
-		updateElevation(Math.Round((globalBearing[1])).ToString());
+		updateElevation(globalBearing[1].ToString());
 	}
 }

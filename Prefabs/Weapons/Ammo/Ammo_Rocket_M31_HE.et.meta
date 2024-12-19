@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{1B97EF105D575F95}Prefabs/Weapons/Warheads/Warhead_HEAT_M77.et"
+ Name "{8BB1B67092DB9007}Prefabs/Weapons/Ammo/Ammo_Rocket_M26_HE.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass XBOX_SERIES : PC {
   }
   EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
   }

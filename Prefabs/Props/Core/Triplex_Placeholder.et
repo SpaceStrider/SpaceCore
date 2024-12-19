@@ -18,20 +18,6 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
      Height 0
     }
    }
-   additionalActions {
-    RAM_TriplexAction "{610E489C493B6B5F}" {
-     ParentContextList {
-      "Triplex"
-     }
-     UIInfo SCR_ActionUIInfo "{61768AE87FE248AC}" {
-      Name "#AR-UserAction_Use"
-      m_sIconName "ingameInteraction"
-     }
-     CanAggregate 1
-     m_bLoopAction 0
-     m_eShownInVehicleState IN_VEHICLE_ANY
-    }
-   }
    AllowCrossHierarchy 1
   }
   RplComponent "{610E4895A0BC2659}" {
